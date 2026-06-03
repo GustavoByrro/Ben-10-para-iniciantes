@@ -1,0 +1,7 @@
+body{
+    background-image: url('Ben10fundo.jpg');
+    background-size: cover;
+}
+h1, h2, p {
+    color: white;
+}
