@@ -1,0 +1,10 @@
+body {
+    background-image: url('fundo ben10.jpg') ;
+    background-size: cover;
+    background-position:  center;
+    margin: 0;
+    height: 100vh;
+}
+.conteudo {
+    color: aliceblue;
+}
