@@ -72,11 +72,11 @@ ol{
 .icone{
     position: absolute;
     width: 110px;
+    display: block;
 }
 
 .nome{
-    display: flex;
-    text-size-adjust:unset
+    display: inline-block;
 }
 
 .carrosel-caixa {
@@ -108,6 +108,7 @@ ol{
 
 .alienigena img {
     width: 100%;
+    height: 300px;
 }
 
 .botao {
@@ -115,7 +116,7 @@ ol{
     top: 50%;
     transform: translateY(-50%);
     background: rgba(0, 255, 0, 0.7);
-     border: none;
+    border: none;
     font-size: 24px;
     cursor: pointer;
     padding: 10px;
