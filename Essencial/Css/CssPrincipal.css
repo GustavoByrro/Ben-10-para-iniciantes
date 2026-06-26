@@ -1,14 +1,12 @@
 body {
-    background-image: url('../images/Ben10fundo.jpg');
+    background-image: url('../images/Ben10_Fundo.jpg');
     background-size: cover;
     font-weight: 400;
     cursor: pointer;
 }
 
-header {
-    background-color: darkgreen;
-    opacity: 0.8;
-    height: 100px;
+header, .explicacao, .ben10{
+    background-color: rgba(0, 100, 0, 0.8);
     border-radius: 20px;
     border: lightgreen 2px solid;
 }
@@ -39,6 +37,10 @@ ol{
     -webkit-text-stroke: 0.7px black;
 }
 
+.explicacao{
+    margin: 1%;
+    padding: 2%;
+}
 
 .conheca{
     color: whitesmoke;
@@ -78,6 +80,7 @@ ol{
 #Massa:hover{
     min-width: 200px;
     min-height: 300px;
+    cursor: zoom-in;
 }
 
 .icone{
@@ -104,6 +107,7 @@ ol{
 
 .carrosel-linha {
     display: flex;
+    padding: 20px;
     gap: 20px;
     transition: transform 0.4s ease-in-out; 
 }
