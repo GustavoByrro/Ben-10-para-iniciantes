@@ -131,3 +131,10 @@ body{
     visibility: visible;
     transform: translateY(0);
 }
+
+.icone{
+    position: absolute;
+    width: 100px;
+    display: block;
+    z-index: 10;
+}
