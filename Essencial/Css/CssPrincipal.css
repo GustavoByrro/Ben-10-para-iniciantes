@@ -32,6 +32,10 @@ p, h2{
     margin: 2%;
 }
 
+p{
+    font-family: "Luckiest guy", cursive;
+}
+
 ol{
     color: white;
     -webkit-text-stroke: 0.7px black;
@@ -155,10 +159,8 @@ ol{
     }
 
     .credito{
-    position: absolute;
-    bottom: 100%;
-    right: 2%;
-}
+        display: none;
+    }
 
 }
 
