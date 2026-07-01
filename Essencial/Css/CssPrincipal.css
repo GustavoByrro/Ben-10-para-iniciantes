@@ -85,12 +85,14 @@ ol{
     min-width: 200px;
     min-height: 300px;
     cursor: zoom-in;
+    z-index: 10;
 }
 
 .icone{
-    position: absolute;
+    position: sticky;
     width: 100px;
     display: block;
+    top: 20px;
 }
 
 .nome{
