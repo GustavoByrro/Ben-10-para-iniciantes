@@ -154,6 +154,12 @@ ol{
         width: 67%;
     }
 
+    .credito{
+    position: absolute;
+    bottom: 100%;
+    right: 2%;
+}
+
 }
 
 @media (max-width: 850px){
@@ -170,6 +176,7 @@ ol{
         opacity: 0;
     }
 
+
     .icone{
         width: 10%;
     }
@@ -178,10 +185,20 @@ ol{
         opacity: 1;
     }
 
+    .credito{
+        display: none;
+    }
+
 }
 
 @media (max-width:800px){
     .icone{
         width: 7%
     }
+}
+
+.credito{
+    position: absolute;
+    bottom: -70%;
+    right: 2%;
 }
