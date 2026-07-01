@@ -61,14 +61,14 @@ p, h2{
 }
 
 
-.ben10{
+.ben10 {
     position: absolute;
     top: 200px;
     right: 20px;
     width: 300px;
-    box-shadow: 1px black;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
 }
-
 #Massa{
     max-height: 70px;
     max-width: 50px;
