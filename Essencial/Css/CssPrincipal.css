@@ -59,16 +59,12 @@ p, h2{
 .subtituloaliens{
     width: 90%;
 }
-
-
-.ben10 {
    .ben10 {
     position: absolute;
     top: 280px; 
     right: 20px;
     width: 300px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
-}
 }
 #Massa{
     max-height: 70px;
