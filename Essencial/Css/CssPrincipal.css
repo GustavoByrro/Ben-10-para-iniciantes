@@ -32,6 +32,10 @@ p, h2{
     margin: 2%;
 }
 
+p{
+    font-family: "Luckiest guy", cursive;
+}
+
 ol{
     color: white;
     -webkit-text-stroke: 0.7px black;
@@ -81,12 +85,14 @@ ol{
     min-width: 200px;
     min-height: 300px;
     cursor: zoom-in;
+    z-index: 10;
 }
 
 .icone{
-    position: absolute;
+    position: sticky;
     width: 100px;
     display: block;
+    top: 20px;
 }
 
 .nome{
@@ -155,10 +161,8 @@ ol{
     }
 
     .credito{
-    position: absolute;
-    bottom: 100%;
-    right: 2%;
-}
+        display: none;
+    }
 
 }
 
