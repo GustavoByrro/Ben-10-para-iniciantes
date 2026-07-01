@@ -34,12 +34,6 @@ p, h2{
     font-family: "Luckiest guy", cursive;
 }
 
-
-ol{
-    color: white;
-    -webkit-text-stroke: 0.7px black;
-}
-
 .explicacao{
     margin: 1%;
     padding: 2%;
