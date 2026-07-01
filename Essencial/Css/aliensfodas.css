@@ -1,11 +1,8 @@
 body{
-    th, td{
-  border:1px solid black;}
-  
-    
   background-image: url('../images/Ben10_Fundo.jpg');
      background-size: cover;
      overflow: hidden;
+     font-family: "Bangers", system-ui;
     }
 
     h1{
@@ -21,18 +18,42 @@ body{
     dl {
      font-size: 45px;
      font-family: "Bangers", system-ui;
-     border: 2px solid lime;
+     border: 3px solid lime;
      border-radius: 35px;
      padding: 9px 13px;
      margin: 9px;
      text-align: start;
      display: inline-block;
+     background-color: forestgreen;
 }
 
 .tabela{
     display: flex;
     justify-content: center; 
     align-items: center; 
-    margin-top: 10px;
+    margin-top: -350px;
+    text-align: center;
 }
-
+th, td{
+  border:3px solid black;
+}
+table{
+    width: 600px;
+    height: 450px;
+    font-family: "Bangers", system-ui;
+}
+dt{
+    font-size: 54px;
+}
+thead{
+    background-color: lavender;
+}
+tbody{
+    background-color: forestgreen;
+}
+caption{
+    font-size: 20px;
+}
+td {
+    font-size: 20px;
+}
