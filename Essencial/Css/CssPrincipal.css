@@ -85,7 +85,7 @@ ol{
 
 .icone{
     position: absolute;
-    width: 110px;
+    width: 100px;
     display: block;
 }
 
@@ -141,3 +141,47 @@ ol{
 
 .botao-esquerda { left: 10px; }
 .botao-direita { right: 10px; }
+
+@media (max-width: 1200px){
+
+    body{
+        margin: auto;
+        align-items: center;
+        text-align: start;
+    }
+
+    main{
+        width: 67%;
+    }
+
+}
+
+@media (max-width: 850px){
+    
+    body{
+        margin: 5%;
+        text-align: start;
+    }
+    main{
+        width: 100%;
+    }
+
+    .ben10{
+        opacity: 0;
+    }
+
+    .icone{
+        width: 10%;
+    }
+
+    .icone:hover{
+        opacity: 1;
+    }
+
+}
+
+@media (max-width:800px){
+    .icone{
+        width: 7%
+    }
+}
